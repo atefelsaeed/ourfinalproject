@@ -1,0 +1,30 @@
+package com.agri.atef.myapplication.model;
+
+public class frt {
+    private String name;
+    private int image;
+
+    public frt() {
+    }
+
+    public frt(String name, int image) {
+        this.name = name;
+        this.image = image;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
+    }
+}

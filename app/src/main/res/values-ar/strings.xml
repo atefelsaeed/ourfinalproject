@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AgriCode</string>
+    <string name="guid">بوابة المعرفة</string>
+    <string name="sign">تسجيل الدخول</string>
+    <string name="gate">بوابة المعرفة</string>
+    <string name="fruit">فاكهة</string>
+    <string name="vegetable">خضراوات</string>
+    <string name="blight">الآفات</string>
+    <string name="articles">المقالات</string>
+    <string name="vedios">الفيديوهات</string>
+    <string name="fieldcrops">محاصيل حقلية</string>
+    <string name="sugarcrops">محاصيل\n السكر</string>
+    <string name="oilcrops">محاصيل\n الزيت</string>
+    <string name="feedrops">محاصيل\n علفية</string>
+</resources>

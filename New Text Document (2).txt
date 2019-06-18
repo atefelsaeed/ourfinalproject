@@ -1,0 +1,39 @@
+<group android:checkableBehavior="single">
+       <item
+        android:id="@+id/nav_registeration"
+        android:icon="@drawable/registeration"
+        android:title="????? ??????"
+        android:onClick="regi"/>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="????????"
+            />
+        <item
+            android:id="@+id/nav_guid"
+            android:icon="@drawable/guid"
+            android:title="???? ??????"
+            />
+        <item
+            android:id="@+id/nav_academic"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="???????? ??????" />
+
+        <item
+            android:id="@+id/nav_insects"
+            android:icon="@drawable/insects"
+            android:title="??????" />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/fav"
+            android:title="??????"
+            android:onClick="fav"/>
+        <item
+            android:id="@+id/nav_planting"
+            android:icon="@drawable/planting"
+            android:title="????" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="????? ????" />
+    </group>

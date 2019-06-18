@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:background="@color/FillToolBar"
+        android:minHeight="?attr/actionBarSize"
+    tools:targetApi="lollipop">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/keyboard_arrow"
+        android:background="@color/FillToolBar" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:layout_marginLeft="80dp"/>
+
+</Toolbar>

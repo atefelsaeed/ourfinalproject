@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".navigation"
+    android:background="@drawable/home"
+    tools:showIn="@layout/app_bar_navigation">
+
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="339dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="24dp"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/guid"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_marginStart="-2dp"
+            android:layout_marginBottom="-26dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-31dp"
+            android:layout_marginTop="31dp"
+            android:layout_toEndOf="@+id/guid"
+            android:text="AgriCode"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold|italic"
+            app:fontFamily="serif"
+            android:layout_toRightOf="@+id/guid" />
+
+        <Button
+            android:id="@+id/sign"
+            android:layout_width="144dp"
+            android:layout_height="47dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="104dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rectguide"
+            android:onClick="sign"
+            android:text="@string/sign"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/gate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="87dp"
+            android:background="@drawable/gatehome"
+            android:onClick="gate"
+            android:textAllCaps="false"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            tools:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/guid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="87dp"
+            android:background="@drawable/guidhome"
+            android:onClick="guid"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+</RelativeLayout>

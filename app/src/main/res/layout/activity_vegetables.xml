@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <include layout="@layout/btn_back_toolbar" />
+
+    <TextView
+        android:id="@+id/textView_veget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/include_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:shadowDx="0"
+        android:text="@string/vegetable"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvfruits"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView_veget">
+    </android.support.v7.widget.RecyclerView>
+
+    <include
+        android:id="@+id/include_button_bottm"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        layout="@layout/bottom_button" />
+</RelativeLayout>

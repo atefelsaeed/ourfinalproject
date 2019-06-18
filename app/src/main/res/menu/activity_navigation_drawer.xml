@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_registeration"
+                android:icon="@drawable/registeration"
+                android:title="تسجيل الدخول" />
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/home_icon"
+                android:title="الرئيسية"
+                />
+            <item
+                android:id="@+id/nav_guid"
+                android:icon="@drawable/guid"
+                android:title="دليل محصولك"
+                />
+            <item
+                android:id="@+id/nav_academic"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="أكاديمية محصولك" />
+
+            <item
+                android:id="@+id/nav_insects"
+                android:icon="@drawable/insects"
+                android:title="الآفات" />
+            <item
+                android:id="@+id/nav_favourite"
+                android:icon="@drawable/fav"
+                android:title="مفضلتي"
+                />
+            <item
+                android:id="@+id/nav_planting"
+                android:icon="@drawable/planting"
+                android:title="ازرع" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="تواصل معنا" />
+        </group>
+
+
+
+
+</menu>
